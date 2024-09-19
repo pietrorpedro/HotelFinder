@@ -1,0 +1,67 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.cardImage {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+.cardContent {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-grow: 1;
+    width: 100%;
+    overflow: hidden;
+}
+
+.cardContent h2 {
+    font-size: 1.2rem;
+    text-align: start;
+    margin-bottom: 10px;
+    max-height: 3em;
+    line-height: 1.2em;
+    overflow: hidden;
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+}
+
+.stars {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.stars .star {
+    width: 20px;
+    height: auto;
+}
+
+.actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .card {
+        max-width: 300px;
+    }
+}

@@ -1,0 +1,76 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.crud {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.hotel {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 300px;
+}
+
+.hotelActions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+
+.modalForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.modalForm input {
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 5px;
+    font-size: 1rem;
+}
+
+.modal {
+    background-color: white;
+    padding: 10px;
+}
+
+.message {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+
+    padding: 10px 0;
+    margin: 10px 0 30px 0;
+
+    background-color: lightskyblue;
+    border: 2px solid rgb(102, 196, 255);
+
+    position: fixed;
+    top: 0;
+}
+
+.addHotel {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .modal {
+        max-width: 1000px;
+        padding: 20px;
+        margin: 50px auto;
+        border: 1px solid black;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+}

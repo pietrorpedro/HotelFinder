@@ -1,0 +1,44 @@
+.card {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    margin: 20px auto;
+    width: 100%;
+
+    text-align: center;
+}
+
+.cardContent,
+.cardImage {
+    width: 100%;
+}
+
+.cardContent {
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.cardImage img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .card {
+        grid-template-columns: 3fr 5fr;
+        max-width: 100%;
+        max-height: 400px;
+        gap: 20px;
+
+        text-align: start;
+    }
+
+    .cardContent {
+        max-width: 400px;
+    }
+}

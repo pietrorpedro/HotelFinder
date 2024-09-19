@@ -1,0 +1,52 @@
+.details {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 10px;
+}
+
+.hotelImage {
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.buy {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+}
+
+.stars .star {
+    max-width: 20px;
+}
+
+@media (min-width: 768px) {
+    .details {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .hotelImage {
+        max-width: 600px;
+        height: 400px;
+    }
+
+    .detailsContent {
+        position: relative;
+    }
+
+    .buy {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}

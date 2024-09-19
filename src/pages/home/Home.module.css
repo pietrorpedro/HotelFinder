@@ -1,0 +1,34 @@
+.sectionTitle {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.promoList,
+.hotelList,
+.favsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.promoList .card,
+.hotelList .card,
+.favsList .card {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 300px;
+}
+
+@media (min-width: 768px) {
+    .promoList,
+    .hotelList,
+    .favsList {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+}
