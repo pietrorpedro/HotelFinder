@@ -30,7 +30,7 @@ const Header = () => {
     return (
         <div className={styles.header}>
             <h1 className={styles.headerLogo}>LOGO</h1>
-            <img onClick={handleHeaderOpen} className={styles.headerButton} src="../assets/menu.png" />
+            <img onClick={handleHeaderOpen} className={styles.headerButton} src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/800px-Hamburger_icon.svg.png" />
             <div className={`${styles.headerContent} ${headerOpen ? styles.open : ''}`}>
                 <ul className={styles.headerNav}>
                     <h1>LOGO</h1>
@@ -40,7 +40,7 @@ const Header = () => {
                     <li>
                         <img
                             className={styles.theme}
-                            src="../assets/theme.png"
+                            src="https://static-00.iconduck.com/assets.00/dark-theme-icon-2048x2048-ymrfkxsy.png"
                             onClick={handleChangeTheme}
                             alt="Trocar tema"
                         />
