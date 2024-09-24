@@ -17,8 +17,8 @@ const Card = (
         onRemove
     }) => {
 
-    const fullStar = "assets/star.png";
-    const emptyStar = "assets/starEmpty.png"
+    const fullStar = "https://cdn-icons-png.flaticon.com/512/1828/1828884.png ";
+    const emptyStar = "https://cdn-icons-png.flaticon.com/512/1828/1828970.png"
 
     const starsArr = Array.from({ length: 5 }, (_, index) =>
         index < stars ? fullStar : emptyStar
@@ -32,7 +32,7 @@ const Card = (
     return (
         <div className={styles.card}>
             <div className={styles.clickable} onClick={handleClick}>
-                <div className={styles.stars}>
+                <div className={[styles.stars]}>
                     {starsArr.map((star, index) => (
                         <img key={index} src={star} alt="star" className={styles.star} />
                     ))}

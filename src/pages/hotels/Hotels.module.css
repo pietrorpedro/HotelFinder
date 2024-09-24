@@ -39,6 +39,14 @@
 .search div input {
     text-align: center;
     padding: 10px 50px;
+    border: 1px solid black;
+}
+
+.filter {
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
 }
 
 @media (min-width: 768px) {

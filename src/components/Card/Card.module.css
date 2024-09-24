@@ -40,6 +40,7 @@
     display: -webkit-box;
 }
 
+
 .stars {
     display: flex;
     justify-content: space-evenly;

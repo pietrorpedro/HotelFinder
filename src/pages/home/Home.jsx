@@ -25,7 +25,7 @@ const Home = () => {
         <div className={styles.home}>
             <h1 className={styles.sectionTitle}>Página Inicial</h1>
             <CardH
-                imagePath={"assets/hotel1.jpg"}
+                imagePath={"https://cf.bstatic.com/xdata/images/hotel/max1024x768/46842895.jpg?k=7b25cb086340d88a3253c25be01012f95b3a51345ecd5fa36d08e3c0a9314dc6&o=&hp=1"}
                 title={"Bem-vindo!"}
                 text={"Bem-vindo ao nosso sistema de reserva de hotéis! Encontre e reserve o hotel ideal para sua próxima viagem com facilidade. Navegue pela nossa lista de hotéis e descubra opções incríveis com base em suas preferências e orçamento."}
             />

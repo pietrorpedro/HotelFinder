@@ -29,11 +29,11 @@ const Header = () => {
 
     return (
         <div className={styles.header}>
-            <h1 className={styles.headerLogo}>LOGO</h1>
+            <h1 className={styles.headerLogo}>HotelFinder</h1>
             <img onClick={handleHeaderOpen} className={styles.headerButton} src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/800px-Hamburger_icon.svg.png" />
             <div className={`${styles.headerContent} ${headerOpen ? styles.open : ''}`}>
                 <ul className={styles.headerNav}>
-                    <h1>LOGO</h1>
+                    <h1>HotelFinder</h1>
                     <li className={styles.navLink}><Link to={"/"}>Início</Link></li>
                     <li className={styles.navLink}><Link to={"/hoteis"}>Hoteis</Link></li>
                     <li className={styles.navLink}><Link to={"/perfil"}>Perfil</Link></li>

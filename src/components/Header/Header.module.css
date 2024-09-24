@@ -6,7 +6,8 @@
     top: 0;
     padding: 10px;
     
-    /* background-color: #FFFCF2; */
+    background-color: #09814a;
+    color: white;
 }
 
 .headerNav {
@@ -16,7 +17,7 @@
 
 .navLink a {
     text-decoration: none;
-    color: #252422;
+    color: white;
     font-weight: 400;
 }
 
@@ -29,7 +30,7 @@
 }
 
 .headerNav {
-    background-color: #CCC5B9;
+    background-color: #2d4739;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
     max-width: 60vw;

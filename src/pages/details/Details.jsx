@@ -28,8 +28,8 @@ const Details = () => {
 
     if (!hotel) return <div>Carregando...</div>;
 
-    const fullStar = "../public/assets/star.png";
-    const emptyStar = "../assets/starEmpty.png";
+    const fullStar = "https://cdn-icons-png.flaticon.com/512/1828/1828884.png";
+    const emptyStar = "https://cdn-icons-png.flaticon.com/512/1828/1828970.png"
 
     // Gera array de estrelas cheias e vazias com base na nota do hotel
     const starsArr = Array(5).fill(emptyStar).map((_, index) =>
